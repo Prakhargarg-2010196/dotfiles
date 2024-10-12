@@ -1,0 +1,11 @@
+# Common to all the configs
+[core]
+	editor = code --wait
+[init]
+	defaultBranch = main
+# Paths and conditional loading of separate configs 
+[includeIf "gitdir:~/Desktop/prakhar-lab/personal/"]
+	path = ~/git-providers/github/personal.gitconfig
+# Kavach one company github account
+[includeIf "gitdir:~/Desktop/prakhar-lab/work/kavachone/"]
+	path = ~/git-providers/github/kavachone.gitconfig
