@@ -1,0 +1,13 @@
+# Personal account, - the default config
+# Create a new ssh key id_personal and attach it on github
+Host personal
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_personal
+
+# Work account-1
+# Create a new ssh key  id_company and attach it on github
+Host kavachone
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_kavachone
